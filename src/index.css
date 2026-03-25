@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    @apply antialiased text-slate-900 bg-[#f2f2f7];
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+      "SF Pro Display", "Segoe UI", sans-serif;
+  }
+
+  ::selection {
+    background-color: rgba(148, 163, 184, 0.35);
+  }
+}
